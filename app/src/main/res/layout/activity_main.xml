@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b1942_bg"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B1942-droid"
+        android:textColor="@color/b1942_accent"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/b1942_card"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnSelectFolder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SELECT GAME FOLDER"
+            android:backgroundTint="@color/b1942_card"
+            android:textColor="@color/b1942_gold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnEditControls"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CONTROLS EDITOR"
+            android:backgroundTint="@color/b1942_card"
+            android:textColor="@color/b1942_gold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ENGINE SETTINGS"
+            android:backgroundTint="@color/b1942_card"
+            android:textColor="@color/b1942_gold"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnPlayGame"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="LAUNCH ENGINE"
+            android:backgroundTint="@color/b1942_accent"
+            android:textColor="@color/b1942_bg"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: Ready to Launch"
+        android:textColor="@color/b1942_text_sub"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+</LinearLayout>
