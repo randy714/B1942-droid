@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">B1942-droid</string>
+    <string name="launch_game">START BATTLEFIELD 1942</string>
+    <string name="tab_settings">SETTINGS</string>
+    <string name="tab_controls">LAYOUT</string>
+    <string name="engine_status">ENGINE: B1942-DROID STANDALONE</string>
+    <string name="select_folder">SELECT GAME FOLDER</string>
+</resources>
