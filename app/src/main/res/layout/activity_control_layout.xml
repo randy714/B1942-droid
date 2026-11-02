@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b1942_bg">
+
+    <com.b1942.engine.TouchControlsView
+        android:id="@+id/touchControlsEditor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Top Action Panel for Touch Control Layout Adjustments -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_card"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/btnResetLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:backgroundTint="@color/b1942_card"
+            android:text="RESET"
+            android:textColor="@color/b1942_gold"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSizeMinus"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/b1942_card"
+            android:text="-"
+            android:textColor="@color/b1942_accent" />
+
+        <Button
+            android:id="@+id/btnSizePlus"
+            android:layout_width="40dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="@color/b1942_card"
+            android:text="+"
+            android:textColor="@color/b1942_accent" />
+
+        <Button
+            android:id="@+id/btnSaveLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="8dp"
+            android:backgroundTint="@color/b1942_accent"
+            android:text="SAVE"
+            android:textColor="@color/b1942_bg"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>
